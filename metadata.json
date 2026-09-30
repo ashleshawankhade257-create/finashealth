@@ -1,0 +1,6 @@
+{
+  "name": "Credit Assistant",
+  "description": "AI-Powered Credit Health & Financial Wellness Platform for India with real-time analytics, personalized roadmap, and CIBIL score tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

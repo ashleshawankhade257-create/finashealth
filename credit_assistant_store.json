@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@creditassistant.in",
+      "password_hash": "93dbed2df14fa03faa738856ee9b289d$4798a72fdc596d3ab8e1d7d6154c7f7b0644a1bd7dc2a6e4e29911d83afc52bf",
+      "auth_provider": "local",
+      "created_at": "2026-09-29T15:24:14.554Z"
+    },
+    {
+      "id": 2,
+      "name": "Kunal Patil",
+      "email": "kunal2@gmail.com",
+      "password_hash": "8b3a39b27e12d173bf492956639294a9$27027c07855d0d5db7e9ea1693d96290425f9618edf5caa65b96f7cf4f8e6464",
+      "auth_provider": "local",
+      "created_at": "2026-09-29T16:15:43.173Z"
+    },
+    {
+      "id": 3,
+      "name": "nikhil",
+      "email": "nikhil@123",
+      "password_hash": "59496abd73a4425c07b340dc4a49b223$36d9c9ffd00efe4b80ddce9e215fd577521bb2e6c4d205d80d7e6c2b131388f8",
+      "auth_provider": "local",
+      "created_at": "2026-09-29T16:25:52.198Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "monthly_income": 60000,
+      "monthly_expenses": 35000,
+      "total_debt": 180000,
+      "monthly_debt_payment": 12000,
+      "total_credit_limit": 250000,
+      "credit_utilization": 72,
+      "dti_ratio": 20,
+      "active_loans": 2,
+      "missed_payments": 1,
+      "financial_goal": "Improve credit score",
+      "created_at": "2026-09-29T15:24:14.554Z",
+      "updated_at": "2026-09-29T15:24:14.554Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "monthly_income": 60000,
+      "monthly_expenses": 35000,
+      "total_debt": 180000,
+      "monthly_debt_payment": 12000,
+      "total_credit_limit": 250000,
+      "credit_utilization": 72,
+      "dti_ratio": 20,
+      "active_loans": 2,
+      "missed_payments": 1,
+      "financial_goal": "Improve credit score",
+      "created_at": "2026-09-29T16:15:53.087Z",
+      "updated_at": "2026-09-29T16:15:53.087Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "monthly_income": 60000,
+      "monthly_expenses": 35000,
+      "total_debt": 180000,
+      "monthly_debt_payment": 12000,
+      "total_credit_limit": 250000,
+      "credit_utilization": 72,
+      "dti_ratio": 20,
+      "active_loans": 2,
+      "missed_payments": 1,
+      "financial_goal": "Reduce debt",
+      "created_at": "2026-09-29T16:26:06.638Z",
+      "updated_at": "2026-09-29T16:26:06.638Z"
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "credit_score": 640,
+      "recorded_at": "2026-06-01T15:24:14.554Z",
+      "source": "user_reported"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "credit_score": 652,
+      "recorded_at": "2026-07-01T15:24:14.554Z",
+      "source": "user_reported"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "credit_score": 660,
+      "recorded_at": "2026-07-31T15:24:14.554Z",
+      "source": "user_reported"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "credit_score": 671,
+      "recorded_at": "2026-08-30T15:24:14.554Z",
+      "source": "user_reported"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "credit_score": 680,
+      "recorded_at": "2026-09-29T15:24:14.554Z",
+      "source": "user_reported"
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "credit_score": 680,
+      "recorded_at": "2026-09-29T16:15:53.087Z",
+      "source": "onboarding"
+    },
+    {
+      "id": 7,
+      "user_id": 3,
+      "credit_score": 680,
+      "recorded_at": "2026-09-29T16:26:06.638Z",
+      "source": "onboarding"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "income": 60000,
+      "expenses": 35000,
+      "debt": 180000,
+      "utilization": 72,
+      "dti": 20,
+      "savings": 13000,
+      "created_at": "2026-09-29T15:24:14.554Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "income": 60000,
+      "expenses": 35000,
+      "debt": 180000,
+      "utilization": 72,
+      "dti": 20,
+      "savings": 13000,
+      "created_at": "2026-09-29T16:15:53.087Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "income": 60000,
+      "expenses": 35000,
+      "debt": 180000,
+      "utilization": 72,
+      "dti": 20,
+      "savings": 13000,
+      "created_at": "2026-09-29T16:26:06.638Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "analysis": "{\"overall_assessment\":\"Based on your reported CIBIL score of 680, a DTI of 20%, and 72% credit utilization, your financial posture is well-positioned for structured improvement through focused debt reduction and automated on-time repayments.\",\"risk_factors\":[\"Credit utilization is elevated at 72%. High revolving balances compress credit scores.\",\"1 missed/delayed payment cycles reported. Payment history accounts for 35% of CIBIL score.\"],\"positive_factors\":[\"Comfortable Debt-to-Income ratio of 20%, ensuring healthy disposable headroom.\"],\"priority_actions\":[\"Pay down high-interest credit card revolving balances to under 30% of card limits.\",\"Enable NACH auto-debit standing mandates for all active loans.\"],\"five_step_plan\":[{\"step\":1,\"title\":\"Automate All EMIs via Standing Instructions\",\"description\":\"Payment history constitutes approximately 35% of credit bureau evaluations. Enable standing auto-debits on your primary bank account.\",\"target_timeline\":\"Weeks 1 - 2\",\"impact_level\":\"High\"},{\"step\":2,\"title\":\"Compress Credit Card Utilization to Under 30%\",\"description\":\"Your current card utilization is 72%. Pay down card dues before statement generation dates or request a limit increase.\",\"target_timeline\":\"Months 1 - 3\",\"impact_level\":\"High\"},{\"step\":3,\"title\":\"Deploy Debt Avalanche on High-Cost Credit\",\"description\":\"Rank liabilities by interest rate. Channel extra savings toward unsecured personal loans and credit cards while continuing base home loan EMIs.\",\"target_timeline\":\"Months 2 - 6\",\"impact_level\":\"High\"},{\"step\":4,\"title\":\"Build 3-Month Liquid Emergency Buffer\",\"description\":\"Establish a liquid contingency fund in sweep-in fixed deposits or liquid funds to avoid resorting to unsecured credit cards in sudden events.\",\"target_timeline\":\"Months 3 - 9\",\"impact_level\":\"Medium\"},{\"step\":5,\"title\":\"Quarterly CIBIL Report Audit\",\"description\":\"Review your full bureau report quarterly to confirm closed loans are not misreported as 'Settled' or 'Written Off'.\",\"target_timeline\":\"Quarterly\",\"impact_level\":\"Medium\"}],\"monthly_targets\":[{\"month\":\"Month 1\",\"target_metric\":\"Payment Consistency\",\"action_goal\":\"100% on-time EMI settlement with auto-debit active on all accounts.\"},{\"month\":\"Month 2\",\"target_metric\":\"Credit Card Balances\",\"action_goal\":\"Reduce revolving debt toward target threshold of 30% utilization.\"},{\"month\":\"Month 3\",\"target_metric\":\"Debt Consolidation\",\"action_goal\":\"Clear smallest credit card balance to eliminate recurring interest charges.\"}],\"explanation\":\"Generated based on mathematically correlated indicators matching Indian retail lending standards.\",\"disclaimer\":\"AI-generated educational guidance. This platform does not guarantee credit score increments or act as a licensed credit bureau or NBFC.\"}",
+      "created_at": "2026-09-29T15:24:32.234Z"
+    }
+  ]
+}
