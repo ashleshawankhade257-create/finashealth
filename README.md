@@ -4,6 +4,8 @@
 
 Credit Assistant is a full-stack financial wellness and credit intelligence platform tailored for Indian retail borrowers. It tracks reported CIBIL scores (300–900), computes vital lending indicators (Debt-to-Income Ratio, Credit Card Utilization, Disposable Liquidity Surplus), provides interactive "what-if" liability simulators, and leverages **Google Gemini 2.5 Flash** to diagnose financial bottlenecks and generate prioritized 5-step debt reduction roadmaps.
 
+   Documentation: https://docs.google.com/document/d/1hsCRWuagIRqpvYr9XvccPm2RJiRlZVTP/edit?usp=drivesdk&ouid=117746445024873209480&rtpof=true&sd=true
+   
 ---
 
 ## Key Features
